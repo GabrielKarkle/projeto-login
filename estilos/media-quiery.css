@@ -1,31 +1,44 @@
 @charset "UTF-8" ;
 
+
+/*tela mediana*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top,#03588C, #012840 );
+    }
     
         section#login {
         width: 80vw;
     }
-     section#login > div#imagen-login {
+     section#login > div#imagen {
         float: left;
-        width: 30%;
-        height: 100%;
-     
-       
-       
+        width:30%;
+        height: 100vh;
     }
      section#login > div#formulario{
-        float: top;
-        width: 70%;
-
-
-        
-       
-      
+        float: right;
+        width: 66%;
     }
-    
-
-    
 }
+
+/*tela maiores*/
 @media screen and (min-width: 992px) {
+
+      body {
+        background-image: linear-gradient(to top,#03588C, #012840 );
+    }
+    section#login {
+        width: 80vw;
+    }
+     section#login > div#imagen {
+        float: left;
+        width:50%;
+        height: 100vh;
+    }
+     section#login > div#formulario{
+        float: right;
+        width: 47%;
+    }
     
 }
