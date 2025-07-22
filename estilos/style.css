@@ -10,6 +10,7 @@ azul escuro: #012840
 */
 
 * { 
+    font-family: 1em;
     margin: 0px;
     padding: 0px;
 }
@@ -36,17 +37,21 @@ section#login {
     border-radius: 20px;
     width: 250px;
     height: 500px;
-    overflow: hidden;
+    overflow: hidden;   
    
 
     box-shadow: 0px 0px 10px #0114217a
 }
 
 section#login > div#imagen-login {
+    display: block;
     background:#0597F2 url(../imagens/fotopexels-fundo.jpg) no-repeat;
+    background-position: center center;
     height: 200px;
-    width: 250px;
-
     background-size: cover;
-
 } 
+section#login > div#formulario {
+    display:block;
+    padding: 10px;
+
+}
