@@ -9,11 +9,14 @@ azul medio: #03588C
 azul escuro: #012840
 */
 
+/*configuraçoes gerais*/
+
 * { 
     
     margin: 0px;
     padding: 0px;
 }
+
 body, html {
     font-family: "Poppins", Arial, sans-serif;
     font-weight: 500;
@@ -23,6 +26,9 @@ body, html {
     height: 100vh;
     width: 100vw;  
 }
+
+/*main*/
+
 main {
     height: 100vh;
     width: 100vw;
@@ -37,6 +43,8 @@ main p {
     font-size: 0.8em;
 }
 
+/*sections*/
+
 section#login {
     position: absolute;
     top: 50%;
@@ -45,8 +53,10 @@ section#login {
 
     background-color: #ffffff ;
     border-radius: 20px;
+    display: block;
     width: 250px;
-    height: 500px;
+   
+    height: 545px;
     overflow: hidden;   
    
     transition: width 0.2s, height 0.2s;
@@ -62,8 +72,70 @@ section#login > div#imagen {
     height: 200px;
     background-size: cover;
 } 
+
 section#login > div#formulario {
     display: block;
     padding: 10px;
 
 }
+
+
+/*div*/
+
+div.entrada {
+    background-color: #03588C;
+    margin: 10px 0px ;
+    margin-left: -2px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 95%;
+    
+}
+
+div.entrada > span{
+    color: white;
+}
+
+div.entrada > label {
+    display: none;
+}
+
+/*botao de enviar */
+
+form > input[type=submit] {
+    display: block;
+    background-color:#0597F2 ;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: white;
+    border-radius: 5px;
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 1em;
+}
+
+form > input[type=submit]:hover {
+    background-color: #03588C;
+}
+
+/*esqueci a senha */
+
+form > div.esqueci {
+    background-color: #0597F2;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+form > div.esqueci > a {
+    text-decoration: none;
+    color: white;
+}
+form > div.esqueci:hover {
+    background-color: #03588C;
+}
+
+
+
+
