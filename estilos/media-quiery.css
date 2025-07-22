@@ -6,6 +6,7 @@
 
     body {
         background-image: linear-gradient(to top,#03588C, #012840 );
+        font-size: 1.2em;
     }
     
         section#login {
@@ -27,17 +28,18 @@
 
       body {
         background-image: linear-gradient(to top,#03588C, #012840 );
+        font-size: 1.3em;
     }
     section#login {
         width: 80vw;
     }
      section#login > div#imagen {
-        float: left;
+        float: right;
         width:50%;
         height: 100vh;
     }
      section#login > div#formulario{
-        float: right;
+        float: left;
         width: 47%;
     }
     
