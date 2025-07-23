@@ -93,6 +93,19 @@ div.entrada {
 }
 
 div.entrada > span{
+    transform: translateY(3px);
+    color: white;
+    
+}
+div.entrada > input {
+    transform: translateY(-3px);
+    padding: 5px;
+    width: 81%;
+
+}
+
+div.entrada > input:focus-within {
+    background-color: #67b3e3;
     color: white;
 }
 
@@ -107,7 +120,7 @@ form > input[type=submit] {
     background-color:#0597F2 ;
     width: 100%;
     height: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border: white;
     border-radius: 5px;
     color: white;
